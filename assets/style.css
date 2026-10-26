@@ -16,3 +16,28 @@
 .transfer-art{width:100%;max-width:300px;justify-self:center}
 .transfer-art img{width:100%;max-width:300px;height:auto;object-fit:contain}
 @media(max-width:620px){.transfer-art{max-width:240px}.transfer-art img{max-width:240px}}
+
+
+/* Fina dorada portfolio identiteta i novog odeljka o načinu rada. */
+:root{--ink:#0f172a;--muted:#475569;--blue:#1557b0;--paper:#f8fbff;--line:#e1e9f3;--mint:#c8e2ff}
+.header{max-width:1244px}
+.brand{color:var(--ink)}
+.hero-aside{border-radius:16px;box-shadow:0 18px 46px #193d6612}
+.project{border-radius:12px;box-shadow:0 8px 24px #12396008;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.project:hover{transform:translateY(-3px);box-shadow:0 14px 32px #12396012}
+.transfer-project{border-radius:14px}
+.transfer-art img{max-width:460px;margin-inline:auto;border-radius:10px}
+.featured{border-radius:16px;box-shadow:0 20px 50px #10294618}
+.method-section{background:linear-gradient(180deg,#edf4ff,#f8fbff);padding:76px 0}
+.method-heading{display:flex;justify-content:space-between;align-items:end;gap:36px;margin-bottom:32px}
+.method-heading .eyebrow{margin-bottom:14px}
+.method-heading>p{max-width:420px;color:var(--muted);font-size:14px}
+.method-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.method-card{background:#fff;border:1px solid #dce7f5;border-radius:12px;padding:25px;box-shadow:0 8px 24px #12396006}
+.method-card>span{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#e8f1ff;color:var(--blue);font:14px Georgia,serif;margin-bottom:22px}
+.method-card h3{font-size:19px;letter-spacing:-.03em}
+.method-card p{font-size:13px;color:var(--muted);margin-top:12px}
+.diagram-note a{color:var(--mint);text-decoration:underline;text-underline-offset:3px}
+@media(max-width:900px){.method-heading{align-items:start;flex-direction:column;gap:18px}}
+@media(max-width:620px){.method-section{padding:52px 0}.method-grid{grid-template-columns:1fr}.method-card{padding:22px}.transfer-art img{max-width:100%}}
+@media(prefers-reduced-motion:reduce){.project{transition:none}.project:hover{transform:none}}
