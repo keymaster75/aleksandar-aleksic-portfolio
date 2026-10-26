@@ -29,3 +29,10 @@ ARPy ima link ka javnoj dokumentaciji. Privatni repozitorijumi nisu povezani jav
 Prikaz ARPy procesa je šema, nije snimak aplikacije. Za narednu iteraciju dodati odobrene screenshotove bez podataka klijenata i precizniji opis WorkPy.
 Sve putanje lokalnih resursa su relativne, za rad pod putanjom projekta.
 Filteri se prikazuju samo uz JavaScript; bez njega svi projekti ostaju dostupni.
+
+
+## Vizuelni identitet i TransferPy
+
+Plava paleta prati TransferPy dokumentaciju (#112846, #164b85, #135fcc). Webprogramer sajt je tokom ove dorade vraćao 521, pa njegove boje nisu direktno očitane.
+
+Originalni čarobnjak preuzet je bez izmena iz javnog repozitorijuma TransferPy-Documentation, docs/images/transferpy-wizard.webp, uz odobrenje autora. Čuva se lokalno u assets/wizard.webp. Opis TransferPy zasnovan je na docs/index.html tog repozitorijuma.
