@@ -44,4 +44,4 @@
 
 
 /* Compact code-tag monogram in the site header. */
-.monogram{display:grid;place-items:center;width:42px;height:42px;border:1px solid #c9ddf7;border-radius:11px;background:#eaf3ff;color:var(--blue);font:750 20px/1 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:-.5px;padding-right:1px;font-size:24px}
+.monogram{display:grid;place-items:center;width:42px;height:42px;border:1px solid #c9ddf7;border-radius:11px;background:#eaf3ff;color:var(--blue);font:750 20px/1 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:3px;padding-right:0;font-size:23px}
