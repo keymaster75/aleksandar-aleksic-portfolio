@@ -41,3 +41,7 @@
 @media(max-width:900px){.method-heading{align-items:start;flex-direction:column;gap:18px}}
 @media(max-width:620px){.method-section{padding:52px 0}.method-grid{grid-template-columns:1fr}.method-card{padding:22px}.transfer-art img{max-width:100%}}
 @media(prefers-reduced-motion:reduce){.project{transition:none}.project:hover{transform:none}}
+
+
+/* Compact code-tag monogram in the site header. */
+.monogram{display:grid;place-items:center;width:42px;height:42px;border:1px solid #c9ddf7;border-radius:11px;background:#eaf3ff;color:var(--blue);font:750 20px/1 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:-3px;padding-right:3px}
