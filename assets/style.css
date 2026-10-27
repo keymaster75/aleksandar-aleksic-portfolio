@@ -49,3 +49,66 @@
 
 /* Wizard mark replacing the standalone code symbol in the header. */
 .monogram{display:block;width:76px;height:76px;flex:0 0 76px;object-fit:contain;border:0;border-radius:0;background:transparent;padding:0}
+
+
+/* Project marks, more legible step numbers, and responsive layout refinements. */
+.monogram{width:88px;height:88px;flex-basis:88px}
+.project h3{display:flex;align-items:center;gap:13px;min-height:48px}
+.project-icon{display:block;width:48px;height:48px;flex:0 0 48px;object-fit:contain;padding:4px;border:1px solid #dce5f0;border-radius:12px;background:#fff}
+.featured h3{display:flex;align-items:center;gap:16px}
+.featured-icon{width:68px;height:68px;flex:0 0 68px;padding:5px;border:1px solid #ffffff38;border-radius:15px;background:#fff;object-fit:contain}
+.number{font-size:17px;font-weight:750;letter-spacing:.04em;color:var(--blue)}
+.stack-item>b{font-size:30px}
+.workflow li>span{width:40px;height:40px;font-size:13px}
+.method-card>span{width:42px;height:42px;font-size:17px;font-weight:650;background:#e8f1ff;border:1px solid #d5e3f5}
+@media(max-width:900px){
+ .hero{grid-template-columns:1fr;gap:38px}
+ .hero>div{max-width:720px}
+ .hero-aside{max-width:none}
+ .featured{grid-template-columns:1fr}
+ .project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .transfer-project{grid-column:span 2}
+}
+@media(max-width:620px){
+ .wrap{padding-left:20px;padding-right:20px}
+ .header{padding:16px 20px;gap:12px}
+ .brand{gap:12px;min-width:0}
+ .brand>span{font-size:15px;line-height:1.35}
+ .brand small{font-size:8px;letter-spacing:1px;line-height:1.5}
+ .monogram{width:76px;height:76px;flex-basis:76px}
+ .header nav{width:100%;justify-content:space-between;flex-wrap:wrap;gap:8px 14px;font-size:12px}
+ .header nav a{padding:5px 0}
+ .hero{grid-template-columns:1fr;padding-top:42px;padding-bottom:42px;gap:32px}
+ h1{font-size:clamp(36px,9vw,43px)}
+ .hero .text-link{display:inline-block;margin:16px 0 0}
+ .hero-aside{padding:20px}
+ .stack-item{gap:15px;padding:19px 0}
+ .stack-item>b{font-size:27px}
+ .strip .wrap{display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:11px}
+ .section{padding-top:52px;padding-bottom:52px}
+ .section-heading{gap:16px;margin-bottom:26px}
+ .featured{padding:22px;gap:24px}
+ .featured h3{font-size:48px;gap:12px}
+ .featured-icon{width:54px;height:54px;flex-basis:54px;border-radius:12px}
+ .workflow{padding:20px}
+ .workflow li{gap:13px}
+ .project-grid{grid-template-columns:1fr;gap:14px}
+ .project{padding:21px}
+ .project-top{margin-bottom:22px}
+ .project h3{font-size:23px;gap:11px;min-height:42px}
+ .project-icon{width:42px;height:42px;flex-basis:42px;padding:3px;border-radius:10px}
+ .transfer-project{grid-column:span 1;display:block}
+ .transfer-copy{width:100%}
+ .transfer-art{display:none}
+ .transfer-features{padding-left:17px;font-size:12px}
+ .more{grid-template-columns:1fr;gap:22px;margin-top:42px}
+ .more-items p{align-items:flex-start}
+ .method-section{padding:52px 0}
+ .method-grid{grid-template-columns:1fr;gap:12px}
+ .method-card{padding:21px}
+ .about{grid-template-columns:1fr;gap:24px}
+ .about-section{padding:48px 0}
+ .contact{padding-top:50px;padding-bottom:50px}
+ .contact-links .button,.contact-links .text-link{display:block;width:fit-content;margin:14px auto 0}
+ .footer{gap:9px}
+}
