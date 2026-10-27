@@ -135,3 +135,19 @@
  .transfer-art figcaption{font-size:10px}
  .transfer-project p,.transfer-project li,.transfer-project summary{overflow-wrap:anywhere}
 }
+
+
+/* Keep the ARPy workflow readable on narrow screens. */
+@media(max-width:620px){
+ .workflow{min-width:0}
+ .workflow-head{gap:12px;font-size:9px;letter-spacing:1.2px}
+ .workflow-head>span:first-child{max-width:calc(100% - 28px);overflow-wrap:normal}
+ .workflow h4{font-size:clamp(20px,5.7vw,23px)}
+ .workflow li{display:grid;grid-template-columns:40px minmax(0,1fr);gap:12px;align-items:start}
+ .workflow li:before{content:none}
+ .workflow li>span{width:40px;height:40px;flex:none;white-space:nowrap}
+ .workflow li>div{min-width:0}
+ .workflow li strong,.workflow li small{overflow-wrap:normal;word-break:normal}
+ .workflow li strong{display:block;line-height:1.4}
+ .workflow li small{font-size:11px;line-height:1.5}
+}
