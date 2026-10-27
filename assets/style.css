@@ -112,3 +112,26 @@
  .contact-links .button,.contact-links .text-link{display:block;width:fit-content;margin:14px auto 0}
  .footer{gap:9px}
 }
+
+
+/* Narrow-screen readability and project imagery. */
+@media(max-width:620px){
+ h1{font-size:clamp(32px,8.5vw,40px)}
+ h2{font-size:clamp(26px,7vw,34px)}
+ .contact h2{font-size:clamp(28px,7.5vw,36px)}
+ .featured,.featured-copy,.transfer-project,.transfer-copy{min-width:0;max-width:100%;width:100%}
+ .featured{overflow:hidden}
+ .featured h3{font-size:clamp(36px,9vw,42px);gap:10px;flex-wrap:wrap;overflow-wrap:anywhere}
+ .featured-icon{width:48px;height:48px;flex-basis:48px}
+ .featured-title{max-width:100%;font-size:clamp(18px,5.2vw,21px);line-height:1.35;overflow-wrap:anywhere}
+ .featured-copy>p:not(.featured-title):not(.featured-tech){width:100%;max-width:100%;font-size:13px;overflow-wrap:anywhere}
+ .featured ul,.featured li{max-width:100%;overflow-wrap:anywhere}
+ .featured-copy .button{max-width:100%;white-space:normal;overflow-wrap:anywhere;flex-wrap:wrap;gap:10px}
+ .project h3{min-width:0;font-size:20px;overflow-wrap:anywhere}
+ .transfer-project{display:flex;flex-direction:column}
+ .transfer-copy{order:0}
+ .transfer-art{display:block;order:1;width:100%;margin:16px auto 0}
+ .transfer-art img{display:block;width:min(100%,220px);height:auto;margin:0 auto}
+ .transfer-art figcaption{font-size:10px}
+ .transfer-project p,.transfer-project li,.transfer-project summary{overflow-wrap:anywhere}
+}
