@@ -16,7 +16,7 @@ if (bar) {
       card.hidden = category !== "svi" && card.dataset.category !== category;
       if (!card.hidden) count++;
     });
-    document.getElementById("result-count").textContent = "Prikazano: " + count + " / 6 · ARPy je uvek izdvojen";
+    document.getElementById("result-count").textContent = "Prikazano: " + count + " / 8 · ARPy je uvek izdvojen";
   }));
 }
 document.getElementById("year").textContent = String(new Date().getFullYear());
